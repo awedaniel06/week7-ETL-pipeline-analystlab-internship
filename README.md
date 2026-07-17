@@ -108,11 +108,18 @@ These analyses provided a quick overview of the weather patterns across the sele
 
 ## Key Findings
 
-- Temperature varied across the selected cities
-- Humidity levels differed from one location to another
-- Weather conditions were different across the cities
-- The ETL pipeline successfully automated the extraction, transformation, and storage of real-time weather data
-- The processed dataset is ready for further analysis, reporting, and visualization
+- Successfully extracted real-time weather data for **Lagos, Abuja, and Ibadan** using the **OpenWeather API**.
+- Retrieved weather data in **JSON format**, which contained nested information such as temperature, humidity, pressure, wind speed, and weather conditions.
+- Transformed the JSON response into a structured tabular dataset using **Pandas** for easier analysis.
+- Cleaned and selected the most relevant weather attributes before exporting the data to a CSV file.
+- Lagos recorded the **highest temperature** at **24.31°C**.
+- Abuja recorded the **lowest temperature** at **22.29°C**.
+- Ibadan recorded the **highest humidity** at **96%**.
+- The average temperature across the three cities was **23.07°C**.
+- Weather conditions differed across the cities, demonstrating regional weather variation.
+- Atmospheric pressure remained relatively stable across all three locations.
+- The ETL pipeline successfully automated the process of **extracting**, **transforming**, and **loading** weather data into a reusable format for further analysis.
+- The project demonstrated how APIs can be used to collect real-time data for analytics and reporting.
 
 ```
 
