@@ -1,0 +1,4 @@
+City,Country,Temperature (°C),Feels Like (°C),Humidity (%),Pressure (hPa),Weather Condition,Wind Speed (m/s),Date & Time
+Lagos,NG,24.31,25.17,91,1015,heavy intensity rain,3.66,2026-07-16 19:28:59
+Abuja,NG,22.29,22.98,92,1015,broken clouds,0.97,2026-07-16 19:35:17
+Ibadan,NG,22.62,23.44,96,1016,overcast clouds,1.06,2026-07-16 19:35:20
